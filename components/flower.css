@@ -1,0 +1,252 @@
+.flowermain{
+
+    width: 100%;
+    height: 790px;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px ;
+    
+}
+.image1{
+    display: flex;
+    align-items: center;
+    gap : 20;
+    
+}
+.image1-3{
+    
+    width: 650px;
+    height: 700px;
+    margin: 0px;
+    
+    padding: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20;
+
+    
+
+}
+.img{
+    background-color: antiquewhite;
+    height: 340px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+
+}
+
+
+.image-lipsum-1{
+    
+    background-image: url('https://demo.blumox.com/andblooms/assets/images/svg/img1.svg');
+    height: 700px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.image-lipsum-2{
+    background-image: url('https://demo.blumox.com/andblooms/assets/images/svg/img1.svg');
+    height: 700px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.boxin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top:  30px;
+    gap: 14;
+    
+}
+.boxin h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(82, 36, 36);
+    font-size:  1.3rem;
+    font-weight: bold;
+
+    
+}
+.boxin h2{
+    color: #1c1c1c6e;
+    font-size: 1.3rem;
+     font-weight:  500;
+}
+.boxin button{
+    border: 1px solid rgb(249, 201, 201);
+    width: 170px;
+    height: 70px;
+    padding: 15px;
+    background-color:  #F6E8DF;
+    margin-top: 20px;
+   
+}
+.flowermain-2{
+    width: 100%;
+    height: 1500px;
+    
+
+}
+.text-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20;
+    height: 300px;
+    width: 100%;
+
+
+
+}
+.text-2 h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 3.5rem;
+     margin-top: 40px ;
+
+
+}
+.text-2 p{
+    font-size: 1.5rem;
+    color: #1c1c1c6e;
+}
+.sales-container{
+    width: 100%;
+    height: 1200px;
+    /* background-color: rgb(222, 228, 226); */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+ 
+}
+.imagebox-1{
+    display: flex;
+    gap: 6;
+    
+}
+.product{
+    width: 340px;
+    height: 540px;
+    /* background-color: rgb(175, 209, 239); */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* .product:last-child{
+    display: none;
+} */
+.product h1{
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-stretch: wider;
+    color: rgb(82, 36, 36);
+
+}
+.imagecontainer{
+    width: 340px;
+    /* background-color: rgb(71, 137, 195); */
+    height: 550px;
+    overflow: hidden;
+}
+.product img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.product img:hover{
+    scale: 1.1;
+    transition: all 0.6s ease-in-out  ;
+    
+}
+.product:hover{
+    overflow: hidden;
+}
+.product p{
+    color: #1c1c1c6e;
+    
+
+}
+.product h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 2rem ;
+    margin-bottom: 30px;
+    color: rgb(86, 32, 32);
+    font-weight: bold;                                                           
+}
+
+.flowermain3{
+ display: flex;
+ height: 900px;
+ width: 100%;
+ /* background-color: aqua; */
+}
+.imgbox{
+    width: 60%;
+    height: 1000px;
+    /* background-color: rgb(249, 201, 201); */
+    
+
+
+}
+.imgbox img{
+    padding-left: 120px;
+    height: 1000px;
+
+
+}
+.textbox{
+    width: 50%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.textbox h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: rgb(86, 32, 32);
+    font-size: 3.7rem;
+    padding: 30px;
+    margin-top: 120px;
+
+
+}
+.textbox p{
+    color: #1c1c1c6e;
+    margin-right: 120px; 
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+.textbox h3{
+    margin-left: 30px;
+    color: rgb(86, 32, 32);
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top:  20px;
+    
+
+}
+.textbox  button{
+    border : 1px solid rgb(249, 201, 201);
+    background-color: rgb(239, 226, 226);
+    width: 200px;
+    height: 60px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+

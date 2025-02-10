@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #2f2d2d6f;
+
+}
+.image{
+    width: 140px;
+    height: 140px;
+    padding: 8px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+
+
+}
+.inputsitm{
+    display : flex;
+    margin-right: 20px ;
+}
+.image img{
+    text-align: center;
+    width: 120px;
+
+
+}
+.tools{
+    height: 90px;
+    width: 600px;
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    display: flex;
+    /* gap: 30; */
+    align-items: center;
+    justify-content: center;
+
+
+}
+.search{
+    margin-right: px;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: #F6E8DF;
+    border-radius: 80px;
+    border: 1px solid #E4B395;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.box img{
+ height: 20px;
+}
+.lock div{
+    border: 1px solid red;
+    
+}
+
+.hamburg{
+    display: none;
+}
+/* .inputsitm{
+    display: flex;
+
+} */
+.search{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left-color: white ;
+    background-color: white;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    
+}
+
+.icon{
+    display: flex;
+   
+}
+
+.Ntf{
+    background-color: #E4B395;
+    height: 24px;
+    width: 24px;
+    border-radius: 20px;
+    position: relative;
+    right: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.input input{
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+
+    border: 1px solid #E4B395;
+    border-right-color: white ;
+    margin-right: 0px;
+    font-size: 1rem;
+
+    width:  180px;
+    height: 60px;
+    padding-left: 25px;
+    outline: none; 
+}
+  
+.hamburg2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    font-size: 17px;
+
+}
+ /* @media ( max-width: 400px ) {
+
+    .header{
+        height: 120px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .image{
+        
+        width: 60px;
+        height: 100px;
+        background-color: aqua;
+
+    }
+    .image img{
+        margin-left: 2px;
+
+        
+    }
+    .box{
+        height: 50px;
+        width: 50px;
+
+        
+    }
+    .tools{
+        display: flex;
+
+
+    }
+
+    .image{
+        width: 140px;
+        height: 140px;
+        padding: 8px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        
+    
+    
+    }
+    .Ntf{
+        width: 20px;
+        height: 20px;
+        font-size: 0.9rem;
+        position: relative;
+        bottom: 3px;
+    }
+    .image img{
+        text-align: center;
+        width: 120px;
+    
+    
+    }
+    .input input{
+        display: none;
+        position: relative;
+        
+    }
+    .search{
+        width: 60px;
+        height: 60px;
+        background-color: #F6E8DF;
+        border-radius: 80px;
+        border: 1px solid #E4B395;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .box{
+        width: 40px;
+        height: 40px;
+    }
+    .hamburg{
+        display: block;
+    }
+    .hamburg2{
+        display: none;
+    }
+    .search{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px ;
+    }
+    .lock{
+        margin-left: 10px;
+    }
+
+    .admin{
+        margin-right: 20px;
+
+    }
+    .hamburg{
+        margin-right: 10px;
+    }
+
+    
+ } */
