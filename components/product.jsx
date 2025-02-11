@@ -79,6 +79,7 @@ const object = [
 
 
   return (
+    <div className="product-main">
     <div className='product-header'>
         <div className="product-text">
             <h1>Featured Categories</h1>
@@ -125,6 +126,7 @@ const object = [
       
 
 
+    </div>
     </div>
   )
 }
