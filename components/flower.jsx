@@ -97,10 +97,11 @@ export default function Flower() {
      <div className="sales-container">
 
       {  object.map(({image ,topic ,Description ,cost} )=>{
-        return <div className="product">
-          <div className="imagecontainer"> <img src={image} alt="" /></div>
+        
+        return <div className="product" >
+          <div className="imagecontainer" > <img src={image} alt="" /></div>
          
-          <h1>{topic}</h1>
+          <h1 >{topic}</h1>
           <p>{Description}</p>
           <h3>{cost}</h3>
         </div>

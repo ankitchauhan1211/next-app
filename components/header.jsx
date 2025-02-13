@@ -2,11 +2,12 @@ import React from 'react';
 import svg from './andbloom.svg' ;
 import './header.css';
 
-export default function Header() {
+export default function Header(){
+  // console.log(handleHome)
   return (
     <>
     <div  className='header'>
-        <div className="image"> <img src='https://demo.blumox.com/andblooms/assets/images/svg/andbloom.svg' alt="jcvjg"/></div>
+        <div className="image" > <img src='https://demo.blumox.com/andblooms/assets/images/svg/andbloom.svg' alt="jcvjg"/></div>
         <div className="tools">
           <div className="inputsitm"> <div className="input "><input type="text"  placeholder='Search'/></div>
             <div className="search box"><a href=""><img src="https://demo.blumox.com/andblooms/assets/images/svg/search.svg" alt="" /></a></div> </div> 

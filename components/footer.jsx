@@ -1,4 +1,4 @@
-// import  { useState } from 'next';
+
 import './footer.css'
 
 export default function Footer() {
@@ -110,25 +110,25 @@ const ind=[
           {rev.map(({image,name,imag2,description,readMore,shortname,index})=>{
             return <><div className='review-box' id={index} >
               <div className="img-b">
-                <img src={image} alt="" />
+                <img src={image} key={image} alt="" />
                 <div className="start">
-                <h1>{name}</h1>
+                <h1  key={name}>{name}</h1>
                 <p>{shortname}</p>
                 <div>
-                <img src={imag2} alt="" />
-                <img src={imag2} alt="" />
-                <img src={imag2} alt="" />
-                <img src={imag2} alt="" />
-                <img src={imag2} alt="" />
+                <img key={imag2}src={imag2} alt="" />
+                <img key={imag2} src={imag2} alt="" />
+                <img key={imag2} src={imag2} alt="" />
+                <img key={imag2} src={imag2} alt="" />
+                <img key={imag2} src={imag2} alt="" />
                 </div>
                 </div>
                 
               </div>
 
               <div className="desc">
-                <p>{description}</p>
+                <p key={description}>{description}</p>
               </div>
-              <div className='readmore'>
+              <div className='readmore' key={readMore}>
                 {readMore}</div>
 
               
